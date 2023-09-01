@@ -4,6 +4,7 @@ var hmacsha1 = require('hmacsha1');
 var hash = hmacsha1('hello', 'apple'); //(KEY, DATA)
 
 console.log(hash);
+return hash
 },{"hmacsha1":2}],2:[function(require,module,exports){
 /* OAuthSimple
 * A simpler version of OAuth
